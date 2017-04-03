@@ -1,8 +1,3 @@
-<?php /*if ( is_active_sidebar( 'maxstore-footer-area' ) ) { */?><!--
-    <div id="content-footer-section" class="row clearfix">
-        <?php /*dynamic_sidebar( 'maxstore-footer-area' ) */?>
-    </div>
---><?php /*} */?>
 <footer id="colophon" class="rsrc-footer" role="contentinfo">
     <div class="row rsrc-author-credits">
         <div class="text-center">

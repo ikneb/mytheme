@@ -29,10 +29,10 @@
     <div class="row">
         <?php // Site title/logo  ?>
         <header id="site-header" class="col-sm-4 hidden-xs rsrc-header text-center col-sm-push-4" role="banner">
-            <?php if (get_theme_mod('header-logo', '') != '') : ?>
+            <?php if (get_theme_mod('custom-logo', '') != '') : ?>
                 <div class="rsrc-header-img">
                     <a href="<?php echo esc_url(home_url('/')); ?>"><img
-                            src="<?php echo esc_url(get_theme_mod('header-logo')); ?>"
+                            src="<?php echo esc_url(get_theme_mod('custom-logo')); ?>"
                             title="<?php echo esc_attr(get_bloginfo('name', 'display')); ?>"/></a>
                 </div>
             <?php else : ?>
