@@ -1,0 +1,36 @@
+/*
+Theme Name: My Theme
+Theme URI: http://themes.com/theme/maxstore/
+Author: Themes
+Author URI: http://themes.com
+Description: theme based on WooCommerce plugin. This theme will be a perfect choice for online fashion store, sport store, digital shop, men or women store, handbags store, cosmetics shop, luxury jewelry, accessories store and multipurpose online stores. Built with Bootstrap and CSS3 this creative theme is fully responsive design ready for the perfect look on any device. Theme is fully translation ready and includes wishlist support, left or/and right sidebar, footer widget area, custom backgrounds, custom logo, info top bar, search bar, social icons and much more... MaxStore is the fastest WooCommerce theme for WordPress. Documentation available at http://demo.themes4wp.com/documentation/category/maxstore/ and check the demo at http://demo.themes4wp.com/maxstore/
+Version: 99999
+
+MaxStore WordPress Theme.
+MaxStore is distributed under the terms of the GNU GPL v3.
+*/
+
+.cart-contents:before {
+    font-family:WooCommerce;
+    content: "\e01d";
+    font-size:28px;
+    margin-top: -40px;
+    font-style:normal;
+    font-weight:400;
+    padding-right:5px;
+    vertical-align: bottom;
+    float:right;
+}
+.cart-contents:hover {
+    text-decoration: none;
+}
+.cart-contents-count {
+    color: #fff;
+    background-color: #2ecc71;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 1px 6px;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+}
